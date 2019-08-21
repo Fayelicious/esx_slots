@@ -1,2 +1,5 @@
 # esx_slots
-Modified version of plesalex100´s [vRP][ESX] Slots | 5x3 slot machine | Animated | Sound Effects https://forum.fivem.net/t/release-vrp-esx-slots-5x3-slot-machine-animated-sound-effects/627146
+
+Converted from vrp_slots original post: https://forum.fivem.net/t/release-vrp-vrp-slots-5x3-slot-machine-animated-sound-effects/627146
+Made by plesalex100
+Modifed by Pheenx
