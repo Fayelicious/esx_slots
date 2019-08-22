@@ -1,27 +1,80 @@
 body {
-  margin: 0;
-  padding: 0;
+	position:auto;
+	 margin-bottom: auto;
+  margin-top:auto;
+   margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0 40px;
   font-family: Impact, Charcoal, sans-serif;
 }
 #overlay {
 
-	margin-bottom:-920px;
- position:relative;
+    margin-left: auto;
+  margin-right: auto;
 
-  z-index:3;
+  margin-bottom: auto;
+  margin-top:auto;
+  padding: 0 0 40px;
+display:block;
+
+  position:fixed;
+  z-index:4;
  pointer-events:none;
 }
 svg {
   display: block;
   margin: auto;
 }
-#stage {
-  margin: 0 auto;
-  width: 1000px;
-  margin-top: 3%;
+.img-wrap {
+    margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+  margin-bottom: auto;
+  margin-top:auto;
   padding: 0 0 40px;
+display:block;
 
-  position:relative;
+  position:auto;
+  z-index:1;
+  
+}
+
+div > img {
+    margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: auto;
+  margin-top:auto;
+
+display:block;
+
+  position:auto;
+  z-index:1;
+}
+.imgset {
+    margin-left: auto;
+  margin-right: auto;
+  width: 1280px;
+ 
+  margin-bottom: auto;
+  margin-top:auto;
+  padding: 0 0 16px;
+display:block;
+
+  position:auto;
+  z-index:1;
+}
+#stage {
+    margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  margin-bottom: auto;
+  margin-top:auto;
+  padding: 0 0 40px;
+display:block;
+
+  position:auto;
   z-index:1;
 
 }
@@ -111,13 +164,14 @@ svg {
   font-size: 32px;
 }
 .imgover {
-	left:2299px;
+
+
 	z-index:3;
 	
 }
 
 .imgback {
-	
+	right: 125px;
 	margin-bottom:-1090px;
  position:relative;
 
