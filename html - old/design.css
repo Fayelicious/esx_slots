@@ -59,7 +59,7 @@ display:block;
  
   margin-bottom: auto;
   margin-top:auto;
-  padding: 0 0 18px;
+  padding: 0 0 16px;
 display:block;
 
   position:auto;
@@ -82,7 +82,7 @@ display:block;
 #aio {
   margin: 0 auto;
   width: 1000px;
-  margin-top: 2%;
+  margin-top: 3%;
   padding: 0 0 40px;
 
   position:relative;
@@ -95,7 +95,7 @@ display:block;
   font-size: 24px;
   color: #011627;
   font-weight: 300;
-  top: 14.0%;
+  top: -19.0%;
   left: 22%; right: 20%;
 }
 
@@ -112,7 +112,7 @@ display:block;
   font-size: 24px;
   color: #011627;
   font-weight: 300;
-  top: -9.8%;
+  top: -41.8%;
   left: 18%; right: 20%;
 }
 
@@ -122,54 +122,20 @@ display:block;
 
 .cHistory li {
   display: inline;
-  margin-left: 38px;
+  margin-left: 42px;
 }
-#paytable {
-	
-    margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-  margin-top:auto;
-  padding: 0 0 40px;
 
-
-  position:fixed;
-  z-index:6;
- pointer-events:none;
-}
-.myfunction {
-	 text-shadow: 1px 1px 1px black;
-  position:absolute;
-	z-index:6;
-  left: 77.5%;
-  top: -20.5%;
-  border: none;
-  color: white;
- padding:14px 82px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 1px 2px;
-  cursor: pointer;
-  border-radius: 4px;
-  background-image: url("img/table.png");
-  background-position:-35px -36px;
-  transition: .2s all;
-}
 .cHistory {
-position:absolute;
+
   font-size: 20px;
   margin-top: -90px;
   padding-top: 10px;
   width: 500px;
   height: 50px;
-top:-12%;
-left:20%;
+
   padding-bottom: 0px;
   border-radius: 0 0 20px 20px;
   text-align: left;
-  z-index:7;
 }
 
 .win {
@@ -177,18 +143,18 @@ left:20%;
   font-size: 26px;
   text-shadow: 1px 1px 1px black;
   color: #FFD700;
-      top: 2%;
-  left: 60%; right: 19.8%;
+      top: -59.8%;
+  left: 80%; right: 19.8%;
 }
 
 .dblOrNothing {
   position: absolute;
-  float: right;
+  float: left;
   font-size: 16px;
   text-shadow: 1px 1px 1px rgba(0,0,0,.5);
   color: #fff;
-    top: -33.8%;
-  left: 80%; 
+    top: -45.8%;
+  left: 25%; right: 19.8%;
 }
 
 #ownedBet {
@@ -247,9 +213,9 @@ left:20%;
   width: 126px;
   height: 112px;
   box-sizing: border-box;
-  opacity: 1;
+  opacity: 0.9;
   color: rgba(0,0,0,1);
-  background: #180024;
+  background: #011627;
   border: solid 2px #000;
   -webkit-backface-visibility: hidden;
      -moz-backface-visibility: hidden;
@@ -277,8 +243,8 @@ left:20%;
 .betUp {
   text-shadow: 1px 1px 1px black;
   position: absolute;
-  left: 77.9%;
-  top: -50.8%;
+  left: 23.3%;
+  top: -62.8%;
   border: none;
   color: white;
   padding: 6px 15px;
@@ -301,8 +267,8 @@ left:20%;
 .AllIn {
   text-shadow: 1px 1px 1px black;
   position: absolute;
-  left: 85.9%;
- top: -50.8%;
+  left: 30.9%;
+  top: -62.8%;
   border: none;
   color: white;
   padding: 6px 15px;
@@ -318,29 +284,27 @@ left:20%;
 }
 
 
-
-.go:hover {
-  background-image: url("img/butbg-hover.png");
-
+.zindex {
+	
 }
 .go {
   text-shadow: 1px 1px 1px black;
   position:absolute;
 	
-  left: 77.5%;
-  top: 5.5%;
+  left: 69.5%;
+  top: -21.5%;
   border: none;
   color: white;
- padding:33px 82px;
+ padding:30px 88px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 1px 2px;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 8px;
   background-image: url("img/butbg.png");
-  background-position:-35px;
+  background-position:-9px;
   transition: .2s all;
 
 }
