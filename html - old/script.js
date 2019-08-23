@@ -30,7 +30,7 @@ var winTable = [
   [1,1,1,2,3.5], // Prune
   [1,1,1,2,3.5], // Lamai
   [1,1,2,2.5,5], // Portocale
-  [1,1,2.2,3,6], // Struguri
+  [1,1,2.5,3,6], // Struguri
   [1,1,3.5,4,10], // Pepene
   [1,1,10,80,350] // Septar
 ];
@@ -83,6 +83,8 @@ function playAudio(audioName) {
     }
   }
 }
+
+
 
 function insertCoin(amount) {
   coins += amount;
@@ -159,7 +161,7 @@ function endWithWin(x, sound) {
 
   $('.betUp').empty().append("RED");
   $('.AllIn').empty().append("BLACK");
-  $('.go').empty().append("Take");
+  $('.go').empty().append("");
 
   canDouble = x;
 
@@ -180,7 +182,7 @@ function looseDouble() {
 
   $('.betUp').empty().append("+BET");
   $('.AllIn').empty().append("ALL IN");
-  $('.go').empty().append("SPIN");
+  $('.go').empty().append("");
 }
 
 function voteColor(x, color) {
@@ -458,7 +460,7 @@ window.addEventListener('message', function(event) {
 /// Everything it's possible !
 
 $(document).ready(function() {
-	allFile = $("#stage, #overlay,#aio, .imgback");
+	allFile = $("#stage, #overlay,#aio, .imgback, #paytable");
 	
   allFile.css("display", "none");
   createSlots($('#ring1'), 1);
