@@ -28,6 +28,10 @@ files {
   'html/img/overlay.png',
   'html/img/background.png',
   'html/img/butbg.png',
+  'html/img/butbg-hover.png',
+  'html/img/paytable.png',
+  'html/img/table.png',
+  'html/img/table-hover.png',
   -- Audio
   'html/audio/relstop.wav',
   'html/audio/alarma.wav',
